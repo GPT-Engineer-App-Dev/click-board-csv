@@ -10,6 +10,9 @@ const Index = () => {
         <Button as={RouterLink} to="/kanban" colorScheme="teal" size="lg">
           Go to Kanban Board
         </Button>
+        <Button as={RouterLink} to="/csv-uploader" colorScheme="teal" size="lg">
+          Go to CSV Uploader
+        </Button>
       </VStack>
     </Container>
   );
