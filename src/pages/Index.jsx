@@ -7,8 +7,8 @@ const Index = () => {
       <VStack spacing={4}>
         <Text fontSize="2xl">Your Blank Canvas</Text>
         <Text>Chat with the agent to start making edits.</Text>
-        <Button as={RouterLink} to="/confetti" colorScheme="teal" size="lg">
-          Go to Confetti Page
+        <Button as={RouterLink} to="/kanban" colorScheme="teal" size="lg">
+          Go to Kanban Board
         </Button>
       </VStack>
     </Container>
